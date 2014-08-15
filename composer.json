@@ -1,0 +1,14 @@
+{
+    "name": "treffynnon/hhvm-ssdeep",
+    "description": "PECL ssdeep ported to HHVM",
+    "type": "extension",
+    "require": {
+        "hhvm/debian-composer-plugin": "dev-master"
+    },
+    "extra": {
+        "apt-get": {
+            "default": ["libfuzzy-dev"]
+        }
+    },
+    "minimum-stability": "dev"
+}
